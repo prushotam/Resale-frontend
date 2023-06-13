@@ -1,0 +1,66 @@
+.container{
+  width: 70vw !important;
+}
+.inner-container{
+  padding: 35px;
+}
+
+.platform-fee-container {
+  p {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 4.5rem;
+    margin-left: 4rem;
+  }
+}
+
+.editorWrapper {
+  width: 100%;
+  min-height: 500px;
+  border: 1px solid var(--darkBlue);
+  border-radius: 3px;
+  margin-bottom: 5px;
+  overflow-y: scroll;
+}
+
+.editor-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--darkBlue);
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.close-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+
+.material-icons {
+  cursor: pointer;
+    margin-right: 20px;
+    height: 30px;
+  
+}
+
+.ck-editor__top {
+  display: none;
+}
+.form-container {
+  background-color: var(--aliceBlue) !important;
+  border: 3px solid var(--linkWater) !important;
+  border-radius: 0 !important;
+}
+.text-center{
+  padding: inherit;
+}

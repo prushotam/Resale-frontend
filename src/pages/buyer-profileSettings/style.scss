@@ -1,0 +1,163 @@
+.profile-container {
+  background: linear-gradient(270deg, var(--lavenderMist), var(--mintCream));
+  width: 100%;
+  height: 100rem;
+
+  .profile-card {
+    padding-left: 5rem;
+    
+    .heading {
+      font-size: 1.8rem;
+      text-align: center;
+      margin-top: 4rem;
+      margin-bottom: 2rem;
+      letter-spacing: 0.1rem;
+    }
+
+    .profile-settings-container {
+      min-height: 84rem;
+      width: 95%;
+      background: var(--white);
+      padding-left: 4rem;
+      padding-top: 3rem;
+
+      Form {
+        width: 55%;
+      }
+
+      .profile-input {
+        border-radius: 2rem;
+        height: 2.7rem;
+        margin-bottom: 1.2rem;
+        width: 83%;
+      }
+
+      .profile-inputs {
+        height: 2.7rem;
+        width: 40%;
+        margin-bottom: 2.3rem;
+      }
+
+      .profileInputs {
+        border-radius: 2rem;
+        height: 2.7rem;
+        width: 92%;
+        margin-bottom: 2.3rem;
+      }
+
+      .form-labels, .form-label, .bank-labels{
+        margin-bottom: 1rem;
+        display: block;
+        color: var(--darkBlack);
+      }
+
+      .formLabels {
+        font-size: 1.2rem;
+        letter-spacing: 0.1rem;
+        color: var(--darkBlack);
+        margin-bottom: 2rem;
+        margin-top: 1.5rem;
+
+      }
+
+      .form-btns {
+        background-color: var(--darkBlue);
+        color: var(--white);
+        border-radius: 0.4rem;
+        padding: 0.5rem 3.6rem;
+        font-size: 16px;
+        margin-bottom: 2.3rem;
+        margin-top: 2rem;
+        text-transform: capitalize;
+      }
+
+      .formBtns {
+        background-color: var(--darkBlue);
+        border-radius: 0.4rem;
+        padding: 0.4rem 5rem;
+        font-size: 16px;
+        position: absolute;
+        left: 45%;
+        top: 88rem;
+        color: var(--white);
+        text-transform: capitalize;
+      }
+
+      .profile-upload {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        position: relative;
+        background-color: var(--offWhite);
+        border: 1px solid var(--darkBlue);
+
+        margin-left: 140%;
+        margin-top: -67rem;
+        .image-container{
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          object-fit: cover;
+          .loader{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .image{
+            width: 8rem;
+            height: 8rem;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+        }
+        .input-selection{
+          position: absolute;
+          top: 10%;
+          left: 85%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          border-radius: 50%;
+          border: 1px solid;
+          width: 35px;
+          height: 35px;
+          background-color: var(--lightBlue);
+          border: 1px solid var(--darkBlue);
+          .label{
+            cursor: pointer;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.bank-details {
+  width: 150%;
+  margin-bottom: 1rem;
+}
+
+
+.profile-inputs, .profile-input, .profileInputs, .bankInput {
+    .MuiInputLabel-root {
+    font-size: 15px !important;
+    }
+    .MuiOutlinedInput-notchedOutline {
+    border-radius: 100px !important;
+    }
+    .MuiOutlinedInput-input {
+      padding: 10px 14px !important;
+    }
+  }
+
+  .circular-images {
+    border-radius: 50%;
+    width: 230px; 
+    height: 230px;
+    
+  }
+  

@@ -1,0 +1,72 @@
+.manage-users-container {
+    border: 4px solid var(--frenchBlue);
+    border-color: var( --darkBlue);
+    width: 94%;
+    min-height: 655px;
+    margin-left: 2.5rem;
+    margin-bottom: 3rem;
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    tr {
+        border-bottom: 1px solid var( --pastelGrey);
+
+        td {
+            color: var(--darkBlack);
+            font-size: 1.1rem;
+            font-weight: 200;
+            padding-left: 3rem;
+
+            .btn{
+                font-size: 13px;
+            }
+            
+            .users-avatar {
+                width: 13%;
+                padding-top: 0.7rem;
+                padding-bottom: 0.7rem;
+
+            }
+
+            .editIcon {
+                width: 17%;
+                margin: 0.5rem;
+                cursor: pointer;
+            }
+
+            .edit-users {
+                width: 17%;
+            }
+
+            .delete-users {
+                width: 70%;
+                margin-left: -7rem;
+            }
+        }
+    }
+
+    th {
+        color: var(--darkBlue);
+        font-weight: 400;
+        font-size: 23px;
+        padding: 18px 18px !important;
+        padding-left: 3rem !important;
+    }
+
+}
+
+.manage-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.mPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}

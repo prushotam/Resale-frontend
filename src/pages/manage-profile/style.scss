@@ -1,0 +1,189 @@
+.heading{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.manage-profile-container{
+    min-height: 41rem;
+    width: 100%;
+    background: var(--white);
+    padding-left:3rem;
+    padding-top: 4rem;
+
+    Form{
+        width: 65%;
+    }
+
+    .form-input{
+        border-radius: 2rem ;
+        height: 2.7rem;
+        margin-bottom: 2.3rem;
+        width: 40%;
+
+    }
+
+   
+
+    .form-inputs{
+        border-radius: 2rem;
+        height: 2.7rem;
+        width: 63%;
+        margin-bottom: 2rem;
+    }
+
+    .form-btn{
+        background-color: var(--darkBlue);
+        border-radius: 0.4rem;
+        padding: 0.5rem 4.2rem;
+        font-size: 16px;
+        margin-bottom: 3.9rem;
+        width: auto;
+        text-transform: capitalize;
+    }
+    
+
+    .manage-upload{
+  
+        // height:50%;
+        width:28%;
+        border-radius : 50%;
+        position:relative;
+        
+        display:flex;
+        justify-content:center;
+        align-items: center;  
+        background-color: var(--sideBar);
+        border: 1px solid var(--darkBlue);
+
+        margin-left: 116%;
+        margin-top: -25rem;
+        input[type='file']{
+          top:0;
+          left:0;
+          opacity:0;
+          cursor:pointer;
+    
+        }
+  
+        p{
+          font-size:1.2rem;
+        font-weight: 200;
+        position: absolute;
+        }
+    
+        &:hover{
+    
+          background-position: 0 -100%;
+    
+          color:var(--darkBlue);
+    
+        }
+  
+      }
+
+      .manage-upload::after{
+        content: "";
+        padding-bottom: 100%;
+        display: block;
+      }
+   
+      .profile-upload {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        position: relative;
+        background-color: var(--offWhite);
+        border: 1px solid var(--darkBlue);
+
+        margin-left: 100%;
+        margin-top: -30rem;
+        .image-container{
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          object-fit: cover;
+          .loader{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .image{
+            width: 8rem;
+            height: 8rem;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+        }
+        .input-selection{
+          position: absolute;
+          top: 10%;
+          left: 85%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          border-radius: 50%;
+          border: 1px solid;
+          width: 35px;
+          height: 35px;
+          background-color: var(--lightBlue);
+          border: 1px solid var(--darkBlue);
+          .label{
+            cursor: pointer;
+            margin-bottom: 0;
+          }
+        }
+      }
+
+    }
+
+.form-errors {
+  color: var(--beanRed);
+  margin-top: -3rem;
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+  margin-left: 0.3rem;
+}
+
+.formErrors{
+  color: var(--white);
+  margin-top: -0.8rem;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  margin-left: 0.3rem;
+}
+
+.widthInput{
+  margin-left: 0.80rem;
+}
+
+.change-link{
+  display: block;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+
+.form-input, .form-inputs {
+  .MuiInputLabel-root {
+  font-size: 15px !important;
+  }
+  .MuiOutlinedInput-notchedOutline {
+  border-radius: 100px !important;
+  }
+  .MuiOutlinedInput-input {
+    padding: 10px 14px !important;
+  }
+}
+
+.circular-image {
+  border-radius: 50%;
+  width: 230px; 
+  height: 230px;
+  
+}

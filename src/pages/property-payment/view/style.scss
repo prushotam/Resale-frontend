@@ -1,0 +1,113 @@
+.fee-container{
+   background-color: var(--white);
+   display: block;
+    .fee-heading{
+        font-size: 20px;
+        font-weight: bold;
+        min-width: 96%;
+        text-transform: capitalize;
+    }
+    .tokenContainer{
+            background-color: var(--white);
+            
+            .tokenHead{
+                height: 20%;
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+            .tokenBody{
+                height: 60%;
+                padding: 30px 10px 10px 10px;
+                overflow-y: scroll;
+                .tokenTable{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .bold{
+                        font-weight: 700;
+                    }
+                    .paid{
+                        color: var(--darkGreen);
+                    }
+                    .remaining{
+                        color: var(--red);
+                    }
+                }
+                .transactionIdContainer{
+                    margin-top: 25px;
+                    .transhead{
+                        font-size: 1.5rem;
+                        font-weight: bold;
+                        margin-bottom: 20px;
+                    }
+                    .button{
+                        display: flex;
+                        justify-content: right;
+                        align-items: center;
+                        margin-top: 20px;
+                    }
+                    .transactionWrapper{
+                        margin-top: 20px;
+                        .inputWrapper{
+                            display: flex;
+                            align-items: center;
+                        
+                        .input{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 70%;
+                            .verification{
+                                display: flex;
+                                color: green;
+                            }
+                            .error{
+                                display: flex;
+                                color: red;
+                            }
+                         }
+                        .addButtons{
+                            width: 50%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: end;
+                            .add{
+                                margin-right: 10px;
+                            }
+                        }
+                        }
+                    }
+                }
+                .transactionHistoryContainer{
+                    .historyHead{
+                        font-size: 1.5rem;
+                        font-weight: bold;
+                        margin-top: 25px;
+                        margin-bottom: 25px;
+                    }
+                    .historyBody{
+                        .step{
+                            font-size: 15px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+            .tokenFooter{
+                height: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                padding: 10px;
+                .button{
+                    padding-right: 10px;
+                }
+            }
+        }
+    
+}
+

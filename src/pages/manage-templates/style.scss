@@ -1,0 +1,198 @@
+
+
+.manage-home {
+    padding-top: 49px;
+
+    .template-list {
+        display: flex;
+        flex-direction: column;
+        border: 0px;
+        border-right: 1px solid var(--cyanBlue) ;
+        overflow-y: scroll;
+        height: 90vh;
+
+        .template-item {
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 36px;
+            background: var(--tropicalBlue);
+            border: 2px solid var(--frenchBlue);
+            border-radius: 10px;
+            max-width: 144px;
+            max-height: 147px;
+
+            &.active {
+                background: var(--frenchBlue);
+            }
+
+            img {
+                align-self: center;
+                height:104px;
+                width:104px;
+            }
+
+            p {
+                text-align: center;
+                color: var(--darkBlack);
+                font-size: 16px;
+                line-height: 24px;
+                text-decoration: none;
+                overflow:hidden;
+            }
+
+        }
+
+    }
+
+    .template-area {
+
+        .template-btns {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 36px;
+
+            .btn-group-left {
+                display: flex;
+                justify-content: flex-start;
+            }
+
+            .btn-group-right {
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+
+
+        .editorWrapper {
+            width: 100%;
+            min-height: 500px;
+            border: 5px solid var(--frenchBlue);
+            border-radius: 10px;
+            margin-bottom: 29px;
+            max-height: 550px;
+            overflow-y: scroll;
+        }
+
+        .templateBtn{
+            font-size: 16px;
+            line-height: 24px;
+            background: var(--darkBlue);
+            border: 0;
+            border-radius: 10px;
+            min-width: 190px;
+            color: white;
+            height: 2.38rem;
+            margin-left: 20rem;
+        }
+
+
+        .btn-primary {
+            font-size: 16px;
+            line-height: 24px;
+            background: var(--darkBlue); 
+            border: 0;
+            border-radius: 10px;
+            min-width: 190px;
+            
+        }
+
+        .btn-link {
+            img {
+                position: relative;
+                bottom: 3px;
+            }
+
+            color: var(--cyanBlue);
+            font-size: 16px;
+            line-height: 24px;
+            text-decoration: none;
+        }
+
+
+        .form-check {
+            cursor: pointer;
+            input[type="checkbox"] {
+                width: 25px;
+                height: 26px;
+                cursor: pointer;
+                &:checked {
+                    background: var(--darkBlue); 
+                }
+            }
+
+            .form-check-label {
+                cursor: pointer;
+                margin-bottom: 0;
+                margin-left: 12px;
+                position: relative;
+                top: 5px;
+            }
+        }
+
+    }
+
+    .spotlist-area {
+        height: 34rem;
+        margin-top: 74px;
+        border: 5px solid var(--frenchBlue);
+        border-radius: 10px;
+        margin-bottom: 29px;
+        background-color: var(--white);
+        position: relative;
+        padding-top: 70px;
+        .plus-btn-wrap {
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            height: 1px;
+            .plus-btn {
+                position: absolute;
+                top: -45px;
+            }
+        }
+
+        
+        .spotlist-item {
+            padding: 15px 10px;
+            background-color: var(--lightBlue);
+            border-radius: 10px;
+            margin-bottom: 20px;
+            .title-bar {
+                display: flex;
+                justify-content: space-between;
+                .title {
+                    color:var(--darkBlack);
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                .icon-group {
+                    display: flex;
+                    justify-content: flex-end;
+                    .icon {
+                        cursor: pointer;
+                        height: 13px;
+                        width: 13px;
+                        margin: 5px 3px;
+                    }
+                }
+            }
+
+            .description-area {
+                color:var(--darBlack);
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+        }
+ 
+    }
+}
+  
+  .templateBtn.disabledButton {
+    cursor: not-allowed;
+  }
+  

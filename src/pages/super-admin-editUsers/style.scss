@@ -1,0 +1,135 @@
+
+.edit-form {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--darkBlue); 
+    box-shadow: 3px 3px 10px var(--black);
+  
+    .add-edit-form {
+      width: 70rem;
+      height: 100%;
+      padding: 1px 100px;
+      padding-left: 6rem;
+  
+      .close-btn {
+        color: var(--white);
+        font-size: 60px;
+        font-weight: 100;
+        margin-left: 56.5rem;
+        margin-top: 2rem;
+        cursor: pointer;
+      }
+  
+      h1 {
+        text-align: center;
+        color: var(--white);
+        font-size: 2rem;
+        font-weight: 300;
+        margin-top: -4rem;
+      }
+      .upload-photo {
+        display: grid;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 9rem;
+  
+        p {
+          font-size: 1.3rem;
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          margin-top: -7.8rem;
+          font-weight: 300;
+        }
+      }
+  
+      form {
+        display: grid;
+        margin: 1rem;
+        row-gap: 2rem;
+        padding-left: 18rem;
+        margin-top: 15%;
+
+        .add-edit-btn {
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+          margin-top: 10%;
+          margin-left: 14%;
+          margin-bottom: 2rem;
+  
+          .add-admin-btn {
+            background-color: var(--white);
+            border: 1px solid var(--white);
+            border-radius: 0.5rem;
+            padding: 6px 6px;
+            color: var(--darkBlack);
+            font-size: 17px;
+            font-weight: 300;
+            width: 30%;
+          }
+          
+        }
+        .form-errors{
+          color: var(--white);
+          font-size: 12px;
+        }
+  
+        select {
+          border-radius: 1.5rem;
+          width: 100%;
+          height: 5.5vh;
+          border: 1px solid var(--white);
+          padding-left: 20px;
+          font-size: 0.8rem;
+          font-weight: 400;
+          color: var(--gray);
+        }
+
+        .add-admin-rows{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 16px;
+        }
+      }
+    }
+  }
+    .edit-upload{
+      height:218px;
+      width:218px;
+      border-radius: 118px;
+      position:relative;
+      
+      display:flex;
+      justify-content:center;
+      align-items: center;  
+      overflow:hidden;
+      background-color: var(--white);
+      margin-left: -20rem;
+      margin-top: -14.5rem;
+      input[type='file']{
+        top:0;
+        left:0;
+        opacity:0;
+        cursor:pointer;
+  
+      }
+
+      p{
+        font-size:20px;
+      font-weight: 200;
+      position: absolute;
+      }
+  
+      &:hover{
+  
+        background-position: 0 -100%;
+  
+        color:var(--darkBlue);
+  
+      }
+  
+  
+    }

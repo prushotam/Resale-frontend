@@ -1,0 +1,32 @@
+.fees-heading{
+    margin: 3rem;
+    p{
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        font-weight: 300;
+    }
+    .datePick{
+        margin-top: 3rem;
+        .dateLabel{
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
+.dateWidth{
+    width: 15.5rem;
+}
+
+.evaluation{
+    margin: 3rem;
+    button {
+        text-transform: capitalize;
+        padding: 0.6rem 3.8rem;
+    }
+}
+
+.timePicker{
+    width: 34.5rem;
+}
+
+

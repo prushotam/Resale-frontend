@@ -1,0 +1,73 @@
+.fee-containers {
+    background: var(--var(--white));
+}
+
+.platform-fee-container {
+    height: 35rem;
+    width: auto;
+    Form {
+        width: 65%;
+    }
+
+    .fee-inputs {
+        border-radius: 2rem;
+        height: 2.7rem;
+        width: 40%;
+        margin-bottom: 2.3rem;
+        margin-left: 4.5rem;
+    }
+
+    .fee-label {
+        margin-bottom: 1.2rem;
+        margin-left: 4.5rem;
+        color: var(--darkBlack);
+    }
+
+    .fee-btn {
+        background-color: var(--darkBlue);
+        border-radius: 0.4rem;
+        padding: 0.6rem 2rem;
+        font-size: 16px;
+        margin-top: 3rem;
+        position: absolute;
+        left: 52%;
+        text-transform: capitalize;
+        color: var(--white);
+        &:hover {
+            background-color: var(--darkBlue);
+            color: var(--white);
+
+          }
+
+    }
+
+    .platform-fee-ck-container {
+        height: 30rem;
+        overflow-y: auto;
+        width: 80%;
+        margin: auto;
+    }
+
+    .fee-button {
+        left: 50%;
+        top: 85%;
+    }
+    .fee-button.right{
+        margin-left: 15%;
+    }
+    .platform-fee-container-embed{
+        margin-left: 16%;
+    }
+   
+}
+button.fee-button.btn.btn-primary {
+    margin-left: 45%;
+    margin-top: 2%;
+}
+.fee-buttonEdit{
+    margin-left: 30%;
+    
+}
+.fee-buttonRight{
+    margin-left: 10%;
+}

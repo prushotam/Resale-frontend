@@ -1,0 +1,89 @@
+
+
+.manage-checklist {
+    padding-top: 49px;
+
+    .checklist-area {
+        margin-top: 70px;
+        border: 5px solid var(--frenchBlue);
+        border-radius: 10px;
+        margin-bottom: 29px;
+        background-color: var(--white);
+        position: relative;
+        padding-top: 70px;
+        .plus-btn-wrap {
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            height: 1px;
+            .plus-btn {
+                position: absolute;
+                top: -45px;
+            }
+        }
+
+        
+      .checklist-table {
+        border: 3px solid var(--darkBlue);
+        border-collapse: inherit;
+        border-spacing: 0;
+        thead tr {
+            background-color: var(--ghostWhite);
+        }
+        td, th {
+            border: 0;
+            border-right: 3px solid var(--darkBlue);
+            text-align: center;
+            &::last-item {
+                border-right: 0px;
+            }
+        }
+        .document{
+            text-align: start;
+        }
+        
+
+        th {
+           
+            border-bottom: 3px solid var(--darkBlue);
+        }
+
+        .btn-primary {
+            font-size: 16px;
+            line-height: 24px;
+            background: var(--darkBlue);
+            border: 0;
+            border-radius: 10px;
+            min-width: 190px;
+        }
+        
+
+      }
+        
+ 
+    }
+}
+
+.blueBg {
+    background-color: var(--darkBlue);
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-middle {
+    max-width: 800px;
+    color:var(--white);
+}
+.large-icon {
+    width: 1.4rem; 
+    height: 1.4rem;
+    display: inline-block;
+    margin-right: 1rem; 
+    margin-left: 1rem; 
+  }
+  
+  
+  
+

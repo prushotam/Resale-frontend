@@ -1,0 +1,27 @@
+.profile-container{
+    .profile-card{
+        .profile-settings-container{
+            .agent-form{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            
+                Form{
+                    margin:3rem;
+                    margin-left: -1rem;
+                    width: 80%;
+
+                    Button{
+                        text-transform: capitalize;
+
+                    }
+                }
+                .agent-profile{
+                    margin-bottom: 3rem;
+                }
+            }
+
+        }
+    }
+}
+

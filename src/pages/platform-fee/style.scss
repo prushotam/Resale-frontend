@@ -1,0 +1,23 @@
+.fee-container{
+    background: var(--white);
+    .fee-heading{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3rem;
+    grid-gap: 43rem;
+    p{
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        font-weight: 300;
+    }
+    button{
+        background-color: var(--darkBlue);
+        border-radius: 0.4rem;
+        color: var(--white);
+        border: 0;
+        height: 2.4rem;
+        margin-left: 5rem;
+        cursor: pointer;
+    }
+    }
+}

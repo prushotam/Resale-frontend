@@ -1,0 +1,45 @@
+@mixin heading-1($text-color : var(--black)) {
+    color: $text-color;
+    font-size: 32px;
+    line-height: 36px;
+}
+  
+@mixin heading-2($text-color : var(--black)) {
+    color: $text-color;
+    font-size: 24px;
+    line-height: 30px;
+}
+  
+
+@mixin heading-3($text-color : var(--black)) {
+    color: $text-color;
+    font-size: 16px;
+    line-height: 22px;
+}
+  
+
+@mixin heading-4($text-color : var(--black)) {
+    color: $text-color;
+    font-size: 14px;
+    line-height: 20px;
+}
+  
+
+@mixin para($text-color : var(--black), $font-weight: 400) {
+    color: $text-color;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: $font-weight;
+}
+
+
+@mixin label($text-color : var(--black), $font-weight: 400) {
+    color: $text-color;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: $font-weight;
+}
+
+
+
+

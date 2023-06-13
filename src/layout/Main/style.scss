@@ -1,0 +1,59 @@
+.page {
+    display: flex;
+    height: 100vh;
+}
+
+
+.main {
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(270deg, var(--lavenderMist), var(--mintCream));
+    padding-top: 27px;
+    padding: 68px 41px;
+    overflow-y: scroll;
+}
+
+.settings-footer {
+
+    li{
+    display: inline-block;
+    padding-left: 5rem;
+    color: var(--paleSky);
+    padding-top: 2rem;
+    }
+    p{
+      margin-left: 50rem;
+      margin-top: -1.6rem;
+      color: var(--paleSky);
+    }
+  }
+
+  .buyermain {
+    background: linear-gradient(270deg, var(--lavenderMist), var(--mintCream));
+    overflow-y: scroll;
+    display: flex;
+   
+}
+.positioning{
+  margin: auto;
+  padding-top: 3rem;
+ }
+
+.buyer-footer {
+  position: absolute;
+  left: 17%;
+  top: 52rem;
+
+    li{
+    display: inline-block;
+    padding-left: 5rem;
+    color: var(--paleSky);
+    padding-top: 2rem;
+    }
+    p{
+      margin-left: 51rem;
+      margin-top: -1.6rem;
+      color: var(--paleSky);
+    }
+  }
+  

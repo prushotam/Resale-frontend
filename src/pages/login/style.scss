@@ -1,0 +1,27 @@
+.forgot-link{
+  font-size: 0.8rem;
+  text-decoration: none;
+  margin-top: 1rem;
+
+}
+.forgot-link:hover{
+  text-decoration: none;
+}
+
+.adminLogo{
+  width: 160%;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.login-errors{
+  color: var(--beanRed);
+  font-size: 0.8rem;
+  margin-left: 0.3rem;
+}
+.lockPos{
+  display: flex;
+  justify-content: center;
+}

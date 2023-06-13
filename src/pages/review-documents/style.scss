@@ -1,0 +1,76 @@
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.btn-container button {
+  text-transform: none;
+}
+
+.reviewDocumentsCard {
+  background-color: var(--titanWhite) !important;
+  border: 2px solid var(--darkBlue) !important;
+  border-radius: 0px !important;
+  height: 35vh !important;
+}
+.card-img {
+  width: 33% !important;
+  margin: auto !important;
+  height: 50%;
+}
+
+.custom-modal {
+  width: 80% !important;
+  max-width: 800px !important;
+}
+
+.title-header{
+  text-align: "center"!important;
+   color: var(--white) !important;
+}
+.selection-dialog{}
+.title-header {
+  text-align: "center" !important;
+  color: "white" !important;
+}
+
+.reviewDocument-table {
+  tbody tr {
+    border: 3px solid var(--darkBlue);
+
+    flex-grow: 1;
+  }
+
+  tbody td {
+    border: 3px solid var(--darkBlue);
+  }
+
+  tbody td:first-child {
+    width: 50px;
+  }
+
+  table {
+    display: inline-table;
+
+    border-collapse: collapse;
+  }
+
+  thead th {
+    background-color: var(--darkBlue);
+
+    width: 100vh;
+  }
+
+  tbody th {
+    text-align: center;
+  }
+
+  tbody tr {
+    text-align: center;
+  }
+}
+.selection-dialog {
+  background-color: var(--darkBlue);
+  color: var(--white) !important;
+}

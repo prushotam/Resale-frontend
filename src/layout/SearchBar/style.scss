@@ -1,0 +1,30 @@
+
+.searchBar {
+    .input-group {
+        max-width: 345px;
+        border-radius: 10px;
+        border: 2px solid var(--frenchBlue);
+        overflow: hidden;
+        background-color:var(--ghostWhite);
+    }
+
+    .input-group-text {
+        background-color:var(--ghostWhite);
+        border: 0px;
+        padding-top: 4px;
+
+        img {
+            height: 18px;
+        }
+    }
+
+    input {
+        background-color:var(--ghostWhite);
+        border: 0px;
+
+        &:focus {
+            box-shadow: none;
+            background-color:var(--ghostWhite);
+        }
+    }
+}
